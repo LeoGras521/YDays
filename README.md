@@ -18,7 +18,7 @@ npm install
 npm run dev
 ```
 
-Ouvre [http://localhost:3000](http://localhost:3000)
+Ouvrir [http://localhost:3000](http://localhost:3000)
 
 ## Structure
 
@@ -65,14 +65,7 @@ src/
 }
 ```
 
-## Passer à une vraie base de données
-
-1. Remplace `src/lib/store.ts` par Supabase, Prisma, ou autre
-2. Remplace `src/lib/videos.json` par des appels DB dans les routes API
-3. Les composants React n'ont pas besoin de changer
-
 ## Catégories disponibles
 
-Cadrage · Lumière · Son · Montage · Post-production · Motion
+Cadrage · Son · Drone · Production · Motion
 
-(Modifiable dans `src/components/VideoGrid.tsx`)
