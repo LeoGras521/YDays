@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from 'react'
 import VideoCard from './VideoCard'
 import { Video } from '@/lib/types'
 
-const CATEGORIES = ['Tous', 'Cadrage', 'Lumière', 'Son', 'Montage', 'Post-production', 'Motion']
+const CATEGORIES = ['Tous', 'Son', 'Cadrage', 'Production', 'Drone']
 
 export default function VideoGrid({ initial }: { initial: Video[] }) {
   const [videos, setVideos] = useState<Video[]>(initial)
